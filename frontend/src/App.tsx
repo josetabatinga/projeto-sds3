@@ -20,7 +20,7 @@ const App = () => {
             </div>
           </div>
           <div className="col-sm-6">
-            <h5 className="text-center text-secondary">Taxa de Sucesso</h5>
+            <h5 className="text-center text-secondary">Taxa de Sucesso (%)</h5>
             <div>
               <DonutChart />
             </div>

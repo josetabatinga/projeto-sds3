@@ -12,7 +12,7 @@ const BarChart = () => {
 
     const mockData = {
         labels: {
-            categories: ['Anakin', 'Barry Allen', 'Kal-El', 'Logan', 'Padmé']
+            categories: ['Tabatinga', 'Ana Valéria', 'Airton Júnior', 'Hellen Vitória', 'Amanda Marreiro']
         },
         series: [
             {
@@ -27,7 +27,7 @@ const BarChart = () => {
             options = {{...options, xaxis: mockData.labels, }}
             series = {mockData.series}
             type = "bar"
-            height = "240"
+            height = "200"
         />
     )
 }
