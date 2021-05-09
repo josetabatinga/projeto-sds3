@@ -3,6 +3,7 @@ import DataTable from "components/Datatable";
 import DonutChart from "components/DonutChart";
 import Footer from "components/Footer";
 import NavBar from "components/NavBar";
+import { Link } from "react-router-dom";
 
 const Dashboard = () => {
     return (
@@ -26,15 +27,14 @@ const Dashboard = () => {
                         </div>
                     </div>
                 </div>
+                <div className="py-3">
+                    <h2 className="text-primary">Todas Vendas</h2>
+                </div>
+
+                <DataTable />
+
+                <Footer />
             </div>
-
-            <div className="py-3">
-                <h2 className="text-primary">Todas Vendas</h2>
-            </div>
-
-            <DataTable />
-
-            <Footer />
         </>
     );
 }

@@ -5,10 +5,10 @@ import Home from "./pages/Home"
 const Routes = () => {
     return (
         <BrowserRouter>
-        
+
             <switch>
 
-                <Route path = "/" exact >
+                <Route path="/" exact >
                     <Home />
                 </Route>
 
@@ -17,8 +17,8 @@ const Routes = () => {
                 </Route>
 
             </switch>
-        
-        
+
+
         </BrowserRouter>
     );
 }
